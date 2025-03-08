@@ -1,6 +1,6 @@
 {
   "name": "todo-app",
-  "private": true,
+  "homepage": "https://trins0812.github.io/Todolist/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
