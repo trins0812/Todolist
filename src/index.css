@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  }
+  .app-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .todo-container {
+  margin-top: 20px;
+  }
+  input {
+  padding: 8px;
+  margin-right: 10px;
+  }
+  button {
+  padding: 8px;
+  cursor: pointer;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    margin: 0;
+  }
+  
+  .app-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .app-container.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button:active {
+    background-color: #ddd;
+  }
+  
